@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 300vh;
+    position: relative;
+}
+.box{
+    width: calc(100% - 40px);
+    height: calc(70px - 20px);
+    background-color: gray;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px 20px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    float: left;
+    margin-right: 20px;
+    font-size: 25px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+#area1{
+    height: 500px;
+    width: 100%;
+    background-color: rosybrown;
+}
+#area2{
+    height: 500px;
+    width: 100%;
+    background-color: darkblue;
+}
+#area3{
+    height: 500px;
+    width: 100%;
+    background-color: yellow;
+}

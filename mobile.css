@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.left_area{
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    padding: 15px 20px;
+    position: relative;
+}
+.mb_btn{
+    width: 40px;
+    height: 50px;
+    background-color: #ffffff;
+}
+.logo{
+    width: 54px;
+    height: 54px;
+    background-image: url(金門.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nav_btn{
+    display: none;
+}
+.right_area{
+    width: 100%;
+    height: auto;
+}
+.img_area{
+    width: 100%;
+    height: auto;
+}
+.img{
+    width: 100%;
+    height: 50vh;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+}
+.imgA{
+    background-image: url(妖刀.png);
+    background-position: 50% 30%;
+}
+.imgB{
+    background-image: url(風法AS.png);
+    background-position: 50% 30%;
+}
+.imgC{
+    background-image: url(蝶火.png);
+    background-position: 50% 10%;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.mask:hover{
+    opacity: 0;
+}
